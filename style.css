@@ -17,6 +17,7 @@ html{
     width: 75px;
     height: 100px;
     margin: 10px;
+
 .justify-between{
     justify-content: space-between;
 }
@@ -29,7 +30,7 @@ html{
     background-color: black;
     color: rgb(0, 255, 0);
     font-size: 32px;
-    font-family: "Lucida Handwriting", "Times New Roman", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     padding: 30px;
     width: 250px;
     height: 100px;
