@@ -1,0 +1,18 @@
+.title{
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family: "Lucida Handwriting", "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+.title.recipe{
+    color: yellow;
+}
+
+.section{
+    background-color: grey;
+}
+
+.ingrediants{
+    
+}
