@@ -1,8 +1,44 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    margin:10px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.taskbar{
+    display: flex;
+}
+.logo{
+    width: 75px;
+    height: 100px;
+    margin: 10px;
+.justify-between{
+    justify-content: space-between;
+}
+}
+
+.hover{
+    
+}
 .title{
     background-color: black;
     color: rgb(0, 255, 0);
+    font-size: 32px;
     font-family: "Lucida Handwriting", "Times New Roman", sans-serif;
-    text-align: center;
+    padding: 30px;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+body{
+    font-family: "Garamond", sans-serif;
 }
 
 .title.recipe{
@@ -13,6 +49,14 @@
     background-color: grey;
 }
 
+.description{
+    
+}
+
 .ingrediants{
+
+}
+
+.steps{
     
 }
