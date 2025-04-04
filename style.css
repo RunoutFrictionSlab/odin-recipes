@@ -15,6 +15,7 @@ html{
     display: flex;
     justify-content: space-between;
     background-color: rgb(71, 69, 69);   
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .title{
@@ -23,7 +24,7 @@ html{
     font-size: 32px;
     font-family: "Times New Roman", sans-serif;
     padding: 30px;
-    width: 250px;
+    width: auto;
     height: 100px;
     margin: 10px;
     
@@ -31,12 +32,14 @@ html{
 
 .taskbar-left{
     display: flex;
+    
 }
 
 
 .taskbar-right{
     
     align-content: center;
+    
 }
 
 .recipe-category-container{
@@ -45,6 +48,7 @@ html{
     flex: auto;
     flex-wrap: wrap;
     background-color: rgb(71, 69, 69);
+    border: 2px solid rgb(0, 0, 0);
     
 }
  ul{
