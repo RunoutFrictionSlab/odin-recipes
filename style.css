@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    background-color: rgb(53, 48, 48);
 }
 *,
 *::before,
@@ -12,20 +13,10 @@ html{
 
 .taskbar{
     display: flex;
-}
-.logo{
-    width: 75px;
-    height: 100px;
-    margin: 10px;
-
-.justify-between{
     justify-content: space-between;
-}
+    background-color: rgb(71, 69, 69);   
 }
 
-.hover{
-    
-}
 .title{
     background-color: black;
     color: rgb(0, 255, 0);
@@ -37,6 +28,62 @@ html{
     margin: 10px;
     
 }
+
+.taskbar-left{
+    display: flex;
+}
+
+
+.taskbar-right{
+    
+    align-content: center;
+}
+
+.recipe-category-container{
+    display: flex;
+    justify-content: flex-start;
+    flex: auto;
+    flex-wrap: wrap;
+    background-color: rgb(71, 69, 69);
+    
+}
+ ul{
+    list-style: none;
+ }
+.recipe-category{
+    display: flex;
+    flex-flow:column;
+    background-color: rgb(84, 84, 88);
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    border: 2px solid rgb(194, 191, 19);
+    
+}
+
+
+.recipe-link{
+    color: #76a3c1;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+.logo{
+    width: 75px;
+    height: 100px;
+    margin: 10px;
+
+
+}
+
+.hover{
+    
+}
+
+
+
 
 body{
     font-family: "Garamond", sans-serif;
